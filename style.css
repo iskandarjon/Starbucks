@@ -239,20 +239,30 @@ a:hover {
 }
 
 .benefits__container::after {
-    content: "we have";
+    content: "we       have";
+    white-space: pre-wrap;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
+    top: 15px;
+    left: 15px;
+    margin: 0;
     display: flex;
-    width: 180px;
-    height: 180px;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
     background-image: url("./images/icons/star.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
 
 }
+
 
 .benefits__item {
 width: 220px;
