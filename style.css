@@ -10,6 +10,7 @@ Extrabold 800
 * {
     box-sizing: border-box;
 }
+
 html {
     overflow-x: hidden;
 }
@@ -29,8 +30,9 @@ img {
 
 }
 
-h1, h2 {
-    font-weight: 800;   
+h1,
+h2 {
+    font-weight: 800;
     margin: 0;
 }
 
@@ -99,7 +101,7 @@ a:hover {
     gap: 95px;
 }
 
-.header__link + .header__link {
+.header__link+.header__link {
     margin-left: 95px;
 }
 
@@ -265,8 +267,8 @@ a:hover {
 
 
 .benefits__item {
-width: 220px;
-text-align: center;
+    width: 220px;
+    text-align: center;
 }
 
 .benefits__image-wrapper {
@@ -277,6 +279,7 @@ text-align: center;
     position: relative;
     margin-bottom: 30px;
 }
+
 .benefits__image-wrapper::before {
     content: "";
     display: block;
@@ -302,27 +305,33 @@ text-align: center;
 }
 
 .benefits__icon {
-width: 150px;
-
-position: absolute;
-top: 50%;
-left: 50%;
-z-index: 5;
-transform: translate(-50%, -50%);
+    width: 150px;
+    min-width: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
 }
 
 
 .benefits__heart {
-  top: calc(50% +10px);
-  left: calc(50% +5px);
+    top: calc(50% + 10px);
+    left: calc(50% + 5px);
 }
+
 .benefits__rocket {
-  width: 210px;
+    width: 210px;
+    top: calc(50% + 10px);
+    left: calc(50% - 10px);
 }
 
 .benefits__money {
-
+    width: 200px;
+    top: calc(50% + 10px);
+    left: calc(50% - 5px);
 }
+
 .benefits__title {
     font-weight: 500;
     font-size: 32px;
@@ -333,3 +342,39 @@ transform: translate(-50%, -50%);
     color: rgba(18, 21, 23, 0.9);
 }
 
+
+
+.stats {
+
+}
+
+.stats .container {
+
+}
+
+.stats__img-wrapper{
+    
+}
+
+.stats__img {
+
+}
+
+.stats__text {
+
+}
+
+
+.stats__title {
+
+}
+
+.stats__desc {
+  line-height: 163%;
+  letter-spacing: -0.02em;
+  color: #D9D9D9;
+}
+
+.stats__pic {
+
+}
